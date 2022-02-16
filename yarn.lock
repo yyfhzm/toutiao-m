@@ -1213,7 +1213,7 @@
 
 "@vant/icons@1.2.1":
   version "1.2.1"
-  resolved "https://registry.npmmirror.com/@vant/icons/-/icons-1.2.1.tgz#309fecb97a4989866f045ce676b545c454701c8f"
+  resolved "https://registry.npmmirror.com/@vant/icons/-/icons-1.2.1.tgz"
   integrity sha512-5ivsKQR4ySbdBW5UPoQDVqO6rdc1um3rvq/0VL+ZSA7Y3MdBQ3E4/NL0hoAY5/sZZeYfIDKEP21gpjUzdeEDQQ==
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0", "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
@@ -1717,6 +1717,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.npmmirror.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   integrity sha512-0FcBfdcmaumGPQ0qPn7Q5qTgz/ooXgIyp1rf8ik5bGX8mpE2YHjC0P/eyQvxu1GURYQgq9ozf2mteQ5ZD9YiyQ==
 
+amfe-flexible@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npmmirror.com/amfe-flexible/-/amfe-flexible-2.2.1.tgz"
+  integrity sha512-L2VfvDzoETBjhRptg5u/IUuzHSuxm22JpSRb404p/TBGeRfwWmmNEbB+TFPIP/sS/+pbM18bCFH9QnMojLuPNw==
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.npmmirror.com/ansi-colors/-/ansi-colors-3.2.4.tgz"
@@ -1982,6 +1987,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.npmmirror.com/aws4/-/aws4-1.11.0.tgz"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
+
+axios@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.npmmirror.com/axios/-/axios-0.26.0.tgz"
+  integrity sha512-lKoGLMYtHvFrPVt3r+RBMp9nh34N0M8zEfCWqdWZx6phynIEhQqAdydpyBAAG211zlhX9Rgu08cOamy6XjE5Og==
+  dependencies:
+    follow-redirects "^1.14.8"
 
 babel-eslint@^10.1.0:
   version "10.1.0"
@@ -2653,7 +2665,7 @@ clone@^1.0.2:
 
 clone@^2.1.1:
   version "2.1.2"
-  resolved "https://registry.npmmirror.com/clone/-/clone-2.1.2.tgz"
+  resolved "https://registry.npmmirror.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==
 
 coa@^2.0.2:
@@ -4301,7 +4313,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.8:
   version "1.14.8"
   resolved "https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.14.8.tgz"
   integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
@@ -4870,7 +4882,7 @@ human-signals@^1.1.1:
   resolved "https://registry.npmmirror.com/human-signals/-/human-signals-1.1.1.tgz"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.4.24.tgz"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -5615,29 +5627,30 @@ launch-editor@^2.2.1, launch-editor@^2.3.0:
     picocolors "^1.0.0"
     shell-quote "^1.6.1"
 
-less-loader@^5.0.0:
+less-loader@5.0.0:
   version "5.0.0"
-  resolved "https://registry.npmmirror.com/less-loader/-/less-loader-5.0.0.tgz"
+  resolved "https://registry.npmmirror.com/less-loader/-/less-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
   integrity sha512-bquCU89mO/yWLaUq0Clk7qCsKhsF/TZpJUzETRvJa9KSVEL9SO3ovCvdEHISBhrC81OwC8QSVX7E0bzElZj9cg==
   dependencies:
     clone "^2.1.1"
     loader-utils "^1.1.0"
     pify "^4.0.1"
 
-less@^3.0.4:
-  version "3.13.1"
-  resolved "https://registry.npmmirror.com/less/-/less-3.13.1.tgz"
-  integrity sha512-SwA1aQXGUvp+P5XdZslUOhhLnClSLIjWvJhmd+Vgib5BFIr9lMNlQwmwUNOjXThF/A0x+MCYYPeWEfeWiLRnTw==
+less@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmmirror.com/less/-/less-4.1.2.tgz#6099ee584999750c2624b65f80145f8674e4b4b0"
+  integrity sha512-EoQp/Et7OSOVu0aJknJOtlXZsnr8XE8KwuzTHOLeVSEx8pVWUICc8Q0VYRHgzyjX78nMEyC/oztWFbgyhtNfDA==
   dependencies:
     copy-anything "^2.0.1"
-    tslib "^1.10.0"
+    parse-node-version "^1.0.1"
+    tslib "^2.3.0"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
     image-size "~0.5.0"
     make-dir "^2.1.0"
     mime "^1.4.1"
-    native-request "^1.0.5"
+    needle "^2.5.2"
     source-map "~0.6.0"
 
 levn@^0.3.0, levn@~0.3.0:
@@ -6188,15 +6201,19 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-request@^1.0.5:
-  version "1.1.0"
-  resolved "https://registry.npmmirror.com/native-request/-/native-request-1.1.0.tgz"
-  integrity sha512-uZ5rQaeRn15XmpgE0xoPL8YWqcX90VtCFglYwAgkvKM5e8fog+vePLAhHxuuv/gRkrQxIeh5U3q9sMNUrENqWw==
-
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+needle@^2.5.2:
+  version "2.9.1"
+  resolved "https://registry.npmmirror.com/needle/-/needle-2.9.1.tgz"
+  integrity sha512-6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.4.4"
+    sax "^1.2.4"
 
 negotiator@0.6.3:
   version "0.6.3"
@@ -6673,6 +6690,11 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
+parse-node-version@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/parse-node-version/-/parse-node-version-1.0.1.tgz"
+  integrity sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==
+
 parse5-htmlparser2-tree-adapter@^6.0.0:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-6.0.1.tgz"
@@ -7134,6 +7156,13 @@ postcss-ordered-values@^4.1.2:
     cssnano-util-get-arguments "^4.0.0"
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
+
+postcss-pxtorem@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmmirror.com/postcss-pxtorem/-/postcss-pxtorem-5.1.1.tgz"
+  integrity sha512-uvgIujL/pn0GbZ+rczESD2orHsbXrrCqi+q9wJO8PCk3ZGCoVVtu5hZTbtk+tbZHZP5UkTfCvqOrTZs9Ncqfsg==
+  dependencies:
+    postcss "^7.0.27"
 
 postcss-reduce-initial@^4.0.3:
   version "4.0.3"
@@ -7742,7 +7771,7 @@ safe-regex@^1.1.0:
   resolved "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sax@~1.2.4:
+sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -8605,10 +8634,15 @@ tsconfig-paths@^3.12.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0, tslib@^1.9.0:
+tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tslib@^2.3.0:
+  version "2.3.1"
+  resolved "https://registry.npmmirror.com/tslib/-/tslib-2.3.1.tgz"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -8884,7 +8918,7 @@ validate-npm-package-license@^3.0.1:
 
 vant@2.5.7:
   version "2.5.7"
-  resolved "https://registry.npmmirror.com/vant/-/vant-2.5.7.tgz#b8cdbd77366c6e32d149c7bbd67b9ec4ea1b908d"
+  resolved "https://registry.npmmirror.com/vant/-/vant-2.5.7.tgz"
   integrity sha512-JD5SxrSI1K0cKTDx0d+UNd/we576WznGNv19ZrhEK943aP8NxyDZ9oI4ZpnR4VmMjTxdANB4JW0CqqeXHMMZ1w==
   dependencies:
     "@babel/runtime" "7.x"
@@ -8936,7 +8970,7 @@ vue-hot-reload-api@^2.3.0:
 
 vue-lazyload@1.2.3:
   version "1.2.3"
-  resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz"
   integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
 "vue-loader-v16@npm:vue-loader@^16.1.0":
